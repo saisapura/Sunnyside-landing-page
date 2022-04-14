@@ -1,0 +1,274 @@
+/* font-family: 'Calistoga', cursive; */
+/* font-family: 'Roboto', sans-serif; */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #343a40;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+ 
+}
+.container {
+  background-color: #fff;
+  width: 1440px;
+  margin: 0 auto;
+}
+
+
+.banner{
+  background-image: url(img/desktop/image-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 700px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.navbar img {
+  width:200px;
+  height: auto
+}
+
+.navbar a {
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+
+}
+  button {
+    font-family: 'Calistoga', cursive;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    background-color: #fff;
+    padding: 12px 24px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .btn:link:link, .btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block; /*inblock*/
+  }
+
+  .btn:hover, .btn:active {
+    background-color: #f1f3f5;
+  }
+
+  .title {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .title h1 {
+    font-family: 'Calistoga', cursive;
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-top: 62px;
+
+  }
+
+  .arrow {
+   stroke: #fff;
+   width:100px;
+   height:100px;
+   margin-top: 50px;
+  } 
+
+  /* SECTIONS */
+
+  .section1 .left, .section2 .right {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0 100px;
+    width: 800px;
+  }
+
+  
+
+  .text-container h2 {
+    font-family: 'Calistoga', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+
+  }
+  .text-container p {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    margin-top: 32px;
+
+  }
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.section2{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.section1 .button, .section2 .button {
+  margin-top: 32px;
+}
+
+/* SECTION3 */
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+  justify-items: center;
+ 
+}
+
+.section3 .graphic h2 {
+  font-family: 'Calistoga', cursive;
+  font-size: 30px;
+  position: absolute;
+  bottom: 200px;
+  left: 250px;
+
+}
+.section3 .photography h2 {
+  font-family: 'Calistoga', cursive;
+  font-size: 30px;
+  position: absolute;
+  bottom: 200px;
+  right: 250px
+
+}
+
+.section3 .graphic p, 
+.section3 .photography p {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.7;
+  width: 450px;
+  position: absolute;
+  bottom: 100px; 
+  text-align: center;
+}
+
+.section3 .graphic p {
+  left: 150px;
+  }
+
+.section3 
+.photography p {
+  right: 125px;
+}
+
+/* TESTIMONIALS*/
+
+.testimonials-box h2 {
+  text-align: center;
+  font-size: 24px;
+  letter-spacing: 6px;
+  font-family: 'Calistoga', cursive;
+  color: #adb5bd;
+  text-transform: uppercase;
+  margin-top: 150px;
+}
+
+.persons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 100px;
+  
+}
+
+.persons img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 100px 0;
+}
+
+.persons p {
+  color: #495057;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.7;
+  letter-spacing: -1px;
+
+
+}
+.persons h3 {
+  font-family:'Calistoga', cursive;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin: 80px 0 10px 0;
+}
+
+.persons p:last-child {
+  color: #adb5bd;
+  font-size: 14px;
+  margin-bottom: 120px;
+}
+
+.random-img img {
+  width: 360px;
+  height: auto;
+  
+}
+.random-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  
+}
+ /* LAST PART*/
+ .last-box {
+  background-color: #00803a75;
+  display: grid;
+  justify-items: center;
+}
+ .logo img {
+  width:200px;
+  height: auto;
+  margin: 80px 0 50px 0;
+  filter: invert(75%)
+
+ }
+
+.last-list a {
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  padding: 10px;
+}
+
+ .icons img{
+  width: 24px;
+  height: 24px;
+  margin: 80px 20px 50px 0;
+  filter: opacity(0.6);
+}
